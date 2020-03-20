@@ -18,6 +18,7 @@ public class CodeBreaker {
 	public String guess(String in) {
 		String answerx = "";
 		String answer_ = "";
+		String answerPrueba = "";
 				
 		if(in == null || in.length() != secret.length()) {
 			return "";
